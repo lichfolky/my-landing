@@ -1,0 +1,39 @@
+@import url('base.css');
+
+header {
+    padding: 1rem 16px;
+    margin-bottom: 2px;
+    background-color: var(--card-color);
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.bio {
+    width: 200px;
+}
+
+#bio-img {
+    border: 2px solid var(--primary-color);
+    border-radius: 2px;
+    aspect-ratio: 1 /1;
+}
+
+.bio-text {
+    padding-top: 0.75rem;
+    color: var(--accent-color);
+}
+
+.questions {
+    width: 40ch;
+}
+
+.questions p {
+    padding-block-end: 0.8em;
+}
